@@ -1,25 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import TodoFeatues from './features/Todo';
+import AlbumFeatures from './features/Albumlist';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload test demo.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<TodoFeatues />
+			<AlbumFeatures />
+		</div>
+	);
 }
 
 export default App;
