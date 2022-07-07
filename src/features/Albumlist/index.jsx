@@ -1,10 +1,6 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import Album from './components/Album';
-
-AlbumFeatures.propTypes = {
-
-};
 
 function AlbumFeatures(props) {
     const albumList = [
