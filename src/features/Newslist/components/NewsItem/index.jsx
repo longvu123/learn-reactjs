@@ -19,7 +19,7 @@ function NewsItem({ news }) {
                         </a>
                     </figure>
                     <header className="eva-aut-dsbv__tit flex-1 mw-0">
-                        <h3>{news.img}</h3>
+                        <h3>{news.title}</h3>
                     </header>
                 </article>
             </div>
