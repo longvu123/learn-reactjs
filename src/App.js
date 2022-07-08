@@ -7,9 +7,9 @@ import Newslist from './features/Newslist';
 function App() {
 	return (
 		<div className="App">
-			{/* <TodoFeatues />
-			<AlbumFeatures /> */}
-			<Newslist />
+			<TodoFeatues />
+			{/*<AlbumFeatures /> */}
+			{/* <Newslist /> */}
 		</div>
 	);
 }

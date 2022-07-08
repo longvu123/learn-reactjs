@@ -9,6 +9,12 @@ Album.propTypes = {
 Album.defaultProps = {
     albumList: []
 }
+const test = () => (
+    <div>
+
+    </div>
+);
+
 
 function Album({ albumList }) {
     return (
